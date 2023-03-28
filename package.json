@@ -1,0 +1,24 @@
+{
+  "name": "tosic-bot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/uws": "^10.149.0",
+    "audit": "0.0.6",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "fix": "0.0.6",
+    "fluent-ffmpeg": "^2.1.2",
+    "npm": "^8.1.0",
+    "uws": "^200.0.0",
+    "ytdl-core": "^4.9.1"
+  }
+}
